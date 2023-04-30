@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title> My To Do list </title>
+
+    <link rel="stylesheet" href="main.css" />
+
+</head>
+<body>
+    <header>
+        <h1> My To Do list </h1>
+        <form id="new-task-form">
+            <input 
+                type="text" 
+                placeholder="Add Your Task Here " 
+                id="new-task-input"
+            />
+            <input 
+                type="submit"
+                id="new-task-submit"
+                value="ADD" 
+            />
+        </form>
+    </header>
+    <main>
+        <section class="task-list">
+            <h2>Tasks _____</h2>
+            <div id="tasks">
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
